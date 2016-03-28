@@ -11,4 +11,4 @@ if not exist ".\bin" mkdir bin
 copy vendor\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll bin\Newtonsoft.Json.dll
 copy vendor\RestSharp.105.1.0\lib\net45\RestSharp.dll bin\RestSharp.dll
 
-%CSCPATH%\csc /reference:bin\Newtonsoft.Json.dll;bin\RestSharp.dll /target:library /out:bin\IO.Swagger.dll /recurse:src\*.cs /doc:bin\IO.Swagger.xml
+%CSCPATH%\csc /reference:bin\Newtonsoft.Json.dll;bin\RestSharp.dll /target:library /out:bin\Gooten.ApiClient.dll /recurse:src\*.cs /doc:bin\Gooten.ApiClient.xml

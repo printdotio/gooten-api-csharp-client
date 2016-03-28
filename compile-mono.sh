@@ -14,7 +14,7 @@ mcs -sdk:${netfx} -r:bin/Newtonsoft.Json.dll,\
 bin/RestSharp.dll,\
 System.Runtime.Serialization.dll \
 -target:library \
--out:bin/IO.Swagger.dll \
+-out:bin/Gooten.ApiClient.dll \
 -recurse:'src/*.cs' \
--doc:bin/IO.Swagger.xml \
+-doc:bin/Gooten.ApiClient.xml \
 -platform:anycpu
